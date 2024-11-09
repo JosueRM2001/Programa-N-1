@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación Formal</title>
-    <link rel="stylesheet" href="styles.css">  <!-- Vincula tu archivo CSS aquí -->
+    <title>Formal Presentation</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link your CSS file here -->
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Presentación</h1>
-            <p>Bienvenidos </p>
+            <h1>Presentation</h1>
+            <p>Welcome</p>
         </header>
 
         <section class="content">
-            <h2>Introducción</h2>
-            <p>Esta es una presentación realizada con PHP, HTML y CSS.</p>
+            <h2>Introduction</h2>
+            <p>This is a presentation created with PHP, HTML, and CSS.</p>
 
-            <h2>Objetivos</h2>
+            <h2>Objectives</h2>
             <ul>
-                <li>Aprender Porgramación Dsitribuida.</li>
-                <li>Entender Porgramación Dsitribuida .</li>
-                <li>Desarrollar Aplicaciones.</li>
+                <li>Learn Distributed Programming.</li>
+                <li>Understand Distributed Programming.</li>
+                <li>Develop Applications.</li>
             </ul>
 
-            <h2>Detalles Técnicos</h2>
-            <p>Este proyecto utiliza PHP para la lógica de servidor y HTML para la presentación.</p>
+            <h2>Technical Details</h2>
+            <p>This project uses PHP for server logic and HTML for presentation.</p>
         </section>
 
         <footer>
-            <p>&copy; 2024 Erick Riofrio. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Erick Riofrio. All rights reserved.</p>
         </footer>
     </div>
 
-  
-    </div>
 
+
+    
 </body>
 </html>
+
+
