@@ -1,16 +1,21 @@
+<?php
+// Get the current year for the footer
+$year = date("Y");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formal Presentation</title>
-    <link rel="stylesheet" href="styles.css">  <!-- Link your CSS file here -->
+    <link rel="stylesheet" href="styles.css">  <!-- Link to your CSS file here -->
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Presentation</h1>
-            <p>Welcome</p>
+            <p>Welcome to the presentation</p>
         </header>
 
         <section class="content">
@@ -29,14 +34,10 @@
         </section>
 
         <footer>
-            <p>&copy; 2024 Erick Riofrio. All rights reserved.</p>
+            <p>&copy; <?php echo $year; ?> Erick Riofrio. All rights reserved.</p>
         </footer>
+
     </div>
 
-
-
-    
 </body>
 </html>
-
-

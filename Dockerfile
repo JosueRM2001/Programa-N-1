@@ -1,11 +1,17 @@
-# Usa la imagen oficial de PHP con Apache
-FROM php:8.2-apache
+# Use a base image of PHP with Apache
+FROM php:8.1-apache
 
-# Copia los archivos del proyecto a la carpeta de trabajo de Apache
+# Set the ServerName to avoid the warning
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Copy the project files into the container
 COPY . /var/www/html/
 
-# Habilita la reescritura de URL de Apache (si es necesario para tu proyecto)
-RUN a2enmod rewrite
+# Set the correct permissions for Apache to read the files
+RUN chown -R www-data:www-data /var/www/html
 
-# Exponer el puerto 80 para acceder a la aplicación desde fuera del contenedor
+# Expose port 80 for the web server
 EXPOSE 80
+
+# Enable Apache mod_rewrite if needed (e.g., for .htaccess rules)
+RUN a2enmod rewrite
