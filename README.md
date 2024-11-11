@@ -21,10 +21,15 @@ Es una programa simple para mostrar un programa como funciona en el lengujae de 
 ## Doker Hub
 ## Pasos para generar la imgen y contenedor de Doker Hub
 - **Paso N°1**
+  
   Abrir la terminal de cmd de tu computadora (se debe tener instaldo Docker Desktop).
+  
 - **Paso N°2**
+  
   Ejecutar el siguiente comando, el cual generara la imagen.
+  
   docker pull erickjrm/programphp:latest
+  
 - **Paso N°3**
   
   Luego ejecutar el siguiente comando, el cual genera el contenedor y el puerto.
