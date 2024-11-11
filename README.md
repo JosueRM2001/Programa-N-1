@@ -1,67 +1,67 @@
 # Presentation
-Este es un proyecto de presentación básico desarrollado con PHP. 
+This is a basic presentation project developed with PHP.
 
-## Descripción
-Este proyecto muestra una página con una presentación formal que incluye secciones como "Introducción", "Objetivos" y "Detalles Técnicos".
+## Description
+This project shows a page with a formal presentation that includes sections like "Introduction", "Objectives" and "Technical Details".
 
-Es una programa simple para mostrar un programa como funciona en el lengujae de programacion de PHP.
+It is a simple program to show a program how it works in the PHP programming language.
 
-## Estructura del Proyecto
- **Contiene lo Siguiente**
-- `index.php`: Archivo principal de la presentación.
-- `styles.css`: Archivo CSS para la estilización de la página.
-- `Dockerfile`: Configuración de la imagen del Docker.
+## Project Structure
+**Contains the Following**
+- `index.php`: Main presentation file.
+- `styles.css`: CSS file for styling the page.
+- `Dockerfile`: Docker image configuration.
 
-## Requisitos para su Desarrollo
-- **Docker Desktop** (si deseas ejecutarlo en un contenedor)
-- **Visual Studio Code** (opcional, pero recomendado)
-- **La extención PHP para Visual Studio Code** (para mejorar el soporte y resaltado de sintaxis).
-- **GitHub Desktop** (si deseas clonar y utilizar el proyecto)
-  
-## Doker Hub
-## Pasos para generar la imgen y contenedor de Doker Hub
-- **Paso N°1**
-  
-  Abrir la terminal de cmd de tu computadora (se debe tener instaldo Docker Desktop).
-  
-- **Paso N°2**
-  
-  Ejecutar el siguiente comando, el cual generara la imagen:
-  
-  docker pull erickjrm/programphp:latest
-  
-- **Paso N°3**
-  
-  Luego ejecutar el siguiente comando, el cual genera el contenedor y el puerto.
-  
-  docker run -d -p 5000:5000 --name python erickjrm/programpython:latest
-  
-- **Paso N°4**
-  
-  Abrir el Docker Desktop para ver si la imgen esta creada corectamente y mandarla a corer para poder visualizar.
-  
-## Proyecto Program-N-1
-## Pasos para ejecutar el proyecto localmente en tu computador
-- **Paso N°1**
-  
-  Clonar el repositorio del proyecto en tu máquina con el suiente link (se debe tener instalado el GitHub Desktop):
-  
-  https://github.com/JosueRM2001/Programa-N-1.git
-  
-- **Paso N°2**
-  
-  Abrir el proyecto con Visual Estudio Code (se debe tener instalado VisualEstudio Code, si es posible la version mas actual).
-  
-- **Paso N°3**
+## Development Requirements
+- **Docker Desktop** (if you want to run it in a container)
+- **Visual Studio Code** (optional, but recommended)
+- **PHP extension for Visual Studio Code** (for better support and syntax highlighting).
+- **GitHub Desktop** (if you want to clone and use the project)
 
-  Instalar las siguientes extenciones en Visual Estudio Code:
-  
+## Docker Hub
+## Steps to generate the image and container for Docker Hub
+- **Step #1**
+
+Open the cmd terminal on your computer (you must have Docker Desktop installed).
+
+- **Step #2**
+
+Run the following command, which will generate the image:
+
+docker pull erickjrm/programphp:latest
+
+- **Step #3**
+
+Then run the following command, which generates the container and the port.
+
+docker run -d -p 5000:5000 --name python erickjrm/programpython:latest
+
+- **Step #4**
+
+Open the Docker Desktop to see if the image is created correctly and send it to run to view.
+
+## Program-N-1 Project
+## Steps to run the project locally on your computer
+- **Step #1**
+
+Clone the project repository to your machine with the following link (you must have GitHub Desktop installed):
+
+https://github.com/JosueRM2001/Programa-N-1.git
+
+- **Step #2**
+
+Open the project with Visual Estudio Code (you must have VisualEstudio Code installed, if possible the most recent version).
+
+- **Step #3**
+
+Install the following extensions in Visual Estudio Code:
+
 - PHP Intelephene
 - PHP IntelliSense
 - PHP Debug
 - PHP Server
 - PHP Extension Pack
 - Docker
-  
- **Con esto ya podras ejecutar el proyecto sin problemas de manera local**.
+
+**With this you can now run the project locally without problems**.
     
