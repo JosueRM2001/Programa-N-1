@@ -28,17 +28,26 @@ Open the cmd terminal on your computer (you must have Docker Desktop installed).
 
 Run the following command, which will generate the image:
 
+```bash
 docker pull erickjrm/programphp:latest
+```
 
 - **Step #3**
 
 Then run the following command, which generates the container and the port.
 
+```bash
 docker run -d -p 8080:80 --name php erickjrm/programphp:lates
+```
 
 - **Step #4**
 
 Open the Docker Desktop to see if the image is created correctly and send it to run to view.
+
+- **Step #5**
+**Acces the application**: Is running you can accces the applicaction by to the
+
+following url in your web browser: http://localhost:8080
 
 ## Program-N-2 Project
 ## Steps to run the project locally on your computer
@@ -46,7 +55,9 @@ Open the Docker Desktop to see if the image is created correctly and send it to 
 
 Clone the project repository to your machine with the following link (you must have GitHub Desktop installed):
 
+```bash
 https://github.com/JosueRM2001/Programa-N-1.git
+```
 
 - **Step #2**
 
