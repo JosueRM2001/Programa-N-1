@@ -34,7 +34,7 @@ docker pull erickjrm/programphp:latest
 
 Then run the following command, which generates the container and the port.
 
-docker run -d -p 5000:5000 --name python erickjrm/programpython:latest
+docker run -d -p 8080:80 --name php erickjrm/programphp:lates
 
 - **Step #4**
 
