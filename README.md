@@ -40,7 +40,7 @@ docker run -d -p 8080:80 --name php erickjrm/programphp:lates
 
 Open the Docker Desktop to see if the image is created correctly and send it to run to view.
 
-## Program-N-1 Project
+## Program-N-2 Project
 ## Steps to run the project locally on your computer
 - **Step #1**
 
