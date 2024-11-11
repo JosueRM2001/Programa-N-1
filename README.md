@@ -26,7 +26,7 @@ Es una programa simple para mostrar un programa como funciona en el lengujae de 
   
 - **Paso N°2**
   
-  Ejecutar el siguiente comando, el cual generara la imagen.
+  Ejecutar el siguiente comando, el cual generara la imagen:
   
   docker pull erickjrm/programphp:latest
   
@@ -47,6 +47,7 @@ Es una programa simple para mostrar un programa como funciona en el lengujae de 
   Clonar el repositorio del proyecto en tu máquina con el suiente link (se debe tener instalado el GitHub Desktop):
   
   https://github.com/JosueRM2001/Programa-N-1.git
+  
 - **Paso N°2**
   
   Abrir el proyecto con Visual Estudio Code (se debe tener instalado VisualEstudio Code, si es posible la version mas actual).
