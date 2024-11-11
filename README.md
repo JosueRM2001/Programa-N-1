@@ -23,18 +23,18 @@ Es una programa simple para mostrar un programa como funciona en el lengujae de 
 - Abrir la terminal de cmd de tu computadora (se debe tener instaldo Docker Desktop)
 - **Paso N°2**
 - Ejecutar el siguiente comando, el cual generara la imagen.
-  docker pull erickjrm/programphp:latest
+- docker pull erickjrm/programphp:latest
 - **Paso N°3**
 - Luego ejecutar el siguiente comando, el cual genera el contenedor y el puerto.
-  docker run -d -p 5000:5000 --name python erickjrm/programpython:latest
+- docker run -d -p 5000:5000 --name python erickjrm/programpython:latest
 - **Paso N°4** 
 - Abrir el Docker Desktop para ver si la imgen esta creada corectamente y mandarla a corer para poder visualizar.
   
 ## Proyecto Program-N-1
 ## Pasos para ejecutar el proyecto localmente en tu computador
 - **Paso N°1**
-- Clonar el repositorio del proyecto en tu máquina con el suiente link(se debe tener instalado el GitHub Desktop) :
-   https://github.com/JosueRM2001/Programa-N-1.git
+- Clonar el repositorio del proyecto en tu máquina con el suiente link (se debe tener instalado el GitHub Desktop) :
+- https://github.com/JosueRM2001/Programa-N-1.git
 - **Paso N°2**
 - Abrir el proyecto con Visual Estudio Code (se debe tener instalado VisualEstudio Code, si es posible la version mas actual).
 - **Paso N°3**
