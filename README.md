@@ -86,6 +86,11 @@ Once installed we must copy the php path that XAMPP generates for us.
 
 ![Captura de pantalla 2024-11-12 073953](https://github.com/user-attachments/assets/fc3aa017-8708-4634-8777-ab618698e88b)
 
+We will paste the path in the Path as follows:
+
+![Captura de pantalla 2024-11-12 075332](https://github.com/user-attachments/assets/8abb3820-fb7f-457b-afc0-b73a5e8f5e19)
+
+
 Finally we must paste the following command in the settings,json.
 
 ![Captura de pantalla 2024-11-12 074436](https://github.com/user-attachments/assets/30b7686c-4b5a-437b-abfd-83e822959e4d)
