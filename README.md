@@ -73,6 +73,17 @@ Install the following extensions in Visual Estudio Code:
 - PHP Server
 - PHP Extension Pack
 - Docker
+  
+- **Step #4**
+
+Debemos intalar lo que XAMPP se lo puede instalar en el siguiente link:
+
+```bash
+https://www.apachefriends.org/es/index.html
+``
+Una ves instalado debemos copiar la ruta php que nos generar el XAMPP.
+![image](https://github.com/user-attachments/assets/19996d56-12fa-442e-b8cd-bcc0d650a0e6)
+
 
 **With this you can now run the project locally without problems**.
     
