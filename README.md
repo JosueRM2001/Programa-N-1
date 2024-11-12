@@ -80,9 +80,12 @@ Debemos intalar lo que XAMPP se lo puede instalar en el siguiente link:
 
 ```bash
 https://www.apachefriends.org/es/index.html
-``
+```
+
 Una ves instalado debemos copiar la ruta php que nos generar el XAMPP.
-![image](https://github.com/user-attachments/assets/19996d56-12fa-442e-b8cd-bcc0d650a0e6)
+![Captura de pantalla 2024-11-12 073953](https://github.com/user-attachments/assets/fc3aa017-8708-4634-8777-ab618698e88b)
+
+Por ultimo debemos pener el siguente comando en el settings,json.
 
 
 **With this you can now run the project locally without problems**.
