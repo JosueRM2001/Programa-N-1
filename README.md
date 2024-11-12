@@ -85,8 +85,15 @@ https://www.apachefriends.org/es/index.html
 Una ves instalado debemos copiar la ruta php que nos generar el XAMPP.
 ![Captura de pantalla 2024-11-12 073953](https://github.com/user-attachments/assets/fc3aa017-8708-4634-8777-ab618698e88b)
 
-Por ultimo debemos pener el siguente comando en el settings,json.
+Por ultimo debemos pegar el siguente comando en el settings,json.
+![Captura de pantalla 2024-11-12 074436](https://github.com/user-attachments/assets/30b7686c-4b5a-437b-abfd-83e822959e4d)
+El comando es:
 
+```bash
+"php.validate.executablePath": "C:\\php\\php.exe"
+```
+Para finalisar daremo click derecho se selecionaremos lo siguiente:
+![Captura de pantalla 2024-11-12 074813](https://github.com/user-attachments/assets/c26cb7f5-d0b2-4ce4-a69e-a58990facc01)
 
 **With this you can now run the project locally without problems**.
     
